@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_application_kobis_2/main_page.dart';
 import 'package:flutter_application_kobis_2/rank_page.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 
@@ -29,6 +30,6 @@ class _MyAppState extends State<MyApp> {
           Locale('ko', 'KR'), // 한국어
           Locale('en', 'US'), // 영어
         ],
-        home: RankPage());
+        home: MainPage());
   }
 }
